@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#home" class="logo">
+            Bahle Simphiwe <span>Sithole</span>
+        </a>
+
+        <i class="bx bx-menu" id="main-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    <a href="#contact" class="btn header-btn">Contact Me</a>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Bahle</span></h1>
+            <h3>I'm a <span>Full-Stack Developer</span></h3>
+            <p>I love turning complex ideas into seamless digital experiences. 
+            I build clean, efficient code from sleek front ends to powerful back ends with a focus on impact, 
+            precision, and a bit of creative flair.</p>
+
+            <div class="social-icons">
+                <a href="https://github.com/bahlesithole" aria-label="GitHub" target="_blank" rel="noopener">
+                    <i class='bx bxl-github'></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/bahle-sithole-5ab679310" aria-label="LinkedIn" target="_blank" rel="noopener">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+
+                <div class="btn-group">
+                    <a href="#contact" class="header-btn">Contact</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="Generated Image October 08, 2025 - 9_01PM.png" alt="home image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Generated Image October 08, 2025 - 9_01PM.png" alt="home image">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>As a Full-Stack Developer who loves bringing ideas to life from the pixels you see to the logic that makes everything work behind the scenes. 
+                I blend creativity with code to build digital experiences that feel smooth, smart, and human. Whether it’s crafting sleek front-ends or architecting solid back-ends, 
+                I’m all about making tech feel effortless and meaningful.</p>
+
+            <a href="Bahle Simphiwe Sithole's Resume.pdf" class="btn" download>Download CV</a>
+            
+
+        </div>        
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+
+        <div class="services-container">
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>UI/UX Design Integration</h4>
+                    <p>Turning designs into smooth, interactive interfaces that look great on any screen and feel natural to use.</p>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Web Development</h4>
+                    <p>Building fast, responsive, and user-friendly websites using modern frameworks like React, Node.js, and Express.</p>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-code-curly"></i>
+                    <h4>API Development & Integration</h4>
+                    <p>Designing and connecting secure, scalable APIs that power seamless communication between systems.</p>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bxs-server"></i>
+                    <h4>Database Design & Management</h4>
+                    <p>Structuring and optimizing databases with MySQL or MongoDB to keep data clean, fast, and reliable.</p>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-bug"></i>
+                    <h4>Bug Fixing & Optimization</h4>
+                    <p>Debugging messy code, improving performance, and making existing apps run smoother and smarter.</p>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-layer"></i>
+                    <h4>Full-Stack App Development</h4>
+                    <p>Creating complete end-to-end web apps from concept and design to deployment and maintenance.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+
+            <div class="projects-box">
+           <div class="project-card">
+            <img src="project1.jpg" alt="Project 1">
+
+            <h3>💰 Smart Budgeting Tracker</h3>
+            <p>A simple, smart way to take control of your money. This app helps you track spending, set goals, and actually see where your money goes all in one clean, interactive dashboard.</p>
+            <a class="btn" href="https://github.com/bahlesithole/smart-budget-tracker" target="_blank" rel="noopener">Review Project</a>
+           </div>
+
+           <div class="project-card">
+            <img src="project2.webp" alt="Project 2">
+
+            <h3>☁️ Azure Cloud-Based File Storage System</h3>
+
+            <p>A secure, scalable cloud solution built on Microsoft Azure. It lets users upload, manage, and access files from anywhere combining cloud efficiency with seamless performance.</p>
+                <a class="btn" href="https://github.com/bahlesithole/azure-file-storage-app" target="_blank" rel="noopener">Review Project</a>
+           </div>
+
+           <div class="project-card">
+            <img src="project3.webp" alt="Project 3">
+
+            <h3>👥 Community Portal Project</h3>
+
+            <p>A simple and dynamic community portal website built with Node.js + Express + EJS website. This project was created as part of the WPR371 course-work to demonstrate web development skills.</p>
+                <a class="btn" href="https://github.com/CreatorCam/community-portal" target="_blank" rel="noopener">Review Project</a>
+           </div>
+
+           <div class="project-card">
+            <img src="project4.jpg" alt="Project 4">
+
+            <h3>🐍 Snake and Ladder Game</h3>
+
+            <p>A classic board game recreated digitally where players navigate a grid, climbing ladders and avoiding snakes, combining luck and strategy for fun and engaging gameplay.</p>
+                        <a class="btn" href="https://github.com/bahlesithole/snake-and-ladder-game" target="_blank" rel="noopener">Review Project</a>
+              </div>
+
+                <div class="project-card">
+                    <img src="project5.webp" alt="Project 5">
+
+                    <h3>🐍 Snake Game</h3>
+    
+                    <p>A fun, interactive game where players control a growing snake, navigating around the screen to collect grapes while avoiding collisions with walls and itself.
+                    </p>
+                        <a class="btn" href="https://github.com/bahlesithole/snake-game" target="_blank" rel="noopener">Review Project</a>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://formspree.io/f/xeeqordk" method="POST" class="contact-form">
+
+            <div class="contact-left">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name">
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+
+                <div class="input-box">
+                    <input type="text" name="phone" placeholder="Phone Number">
+                    <input type="text" name="subject" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <textarea name="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+
+        </form>
+
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+                <a href="https://github.com/bahlesithole" aria-label="GitHub" target="_blank" rel="noopener">
+                    <i class='bx bxl-github'></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/bahle-sithole-5ab679310" aria-label="LinkedIn" target="_blank" rel="noopener">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+            </div>
+
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+
+                 <li>
+                    <a href="#services">Services</a>
+                </li>
+
+                 <li>
+                    <a href="#about">About Me</a>
+                </li>
+
+                 <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                 <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <p class="copyright">
+                &copy; 2025 Bahle Simphiwe Sithole | All Rights Reserved.
+            </p>
+    </footer>
+</body>
+</html>
